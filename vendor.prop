@@ -150,6 +150,7 @@ vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
+debug.hwui.use_buffer_age=false
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp

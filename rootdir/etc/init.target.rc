@@ -52,9 +52,6 @@ on init
 on early-fs
     start vold
 
-on post-fs
-    write /dev/ipa 1
-
 on init
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
 
@@ -67,6 +64,7 @@ on post-fs-data
     mkdir /data/vendor/misc/seemp 0700 system system
 
 on early-boot
+    write /dev/ipa 1
     chown system system /mnt/vendor/persist/sensors
     chown system system /mnt/vendor/persist/sensors/sns.reg
     chown system system /mnt/vendor/persist/sensors/sensors_settings

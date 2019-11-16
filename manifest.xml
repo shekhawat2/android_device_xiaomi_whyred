@@ -334,4 +334,9 @@
         <transport>hwbinder</transport>
         <fqname>@3.0::IKeymasterDevice/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.qccvndhal</name>
+        <transport>hwbinder</transport>
+        <fqname>@3.0::IQccvndhal/qccvndhal</fqname>
+    </hal>
 </manifest>

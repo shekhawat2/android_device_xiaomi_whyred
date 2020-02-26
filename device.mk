@@ -202,6 +202,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
     android.hardware.drm@1.3-service.clearkey
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 ifeq ($(BOARD_HAVE_QCOM_FM),true)

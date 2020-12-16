@@ -197,3 +197,5 @@ ro.soc.model=SDM660
 
 # Time
 persist.vendor.delta_time.enable=true
+
+ro.build.shutdown_timeout=2

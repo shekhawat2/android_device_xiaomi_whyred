@@ -424,10 +424,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     android.frameworks.sensorservice@1.0.vendor
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
 # Telephony
 PRODUCT_PACKAGES += \
     ipacm \

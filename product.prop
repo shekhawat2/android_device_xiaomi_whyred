@@ -4,3 +4,6 @@ ro.charger.enable_suspend=true
 
 # Incremental FS
 ro.incremental.enable=1
+
+# IORap app launch prefetching using Perfetto traces and madvise
+ro.iorapd.enable=true

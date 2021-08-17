@@ -445,10 +445,10 @@ vendor/lib/libqmiservices.so|d1e3378b5ea0983daa4b25935b64070dc6cfaf6b
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
+system_ext/framework/qti-telephony-common.jar|25a8f6690b9069db4a616390b14cb6041c659b94
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
 system_ext/framework/qcrilhook.jar|ad688364314100318f305ed4ab5defec8766b20a
-system_ext/framework/qti-telephony-common.jar|25a8f6690b9069db4a616390b14cb6041c659b94
 vendor/bin/hw/qcrild|b8c1fafadf119936fb07c628248fd5e477f73f13
 vendor/bin/adpl|ed11eae8da997c338cf7c003b5e2b489dd6af7e1
 vendor/bin/netmgrd|0e3495104c8b516800544201b581bdd1d9f08703
@@ -556,7 +556,6 @@ system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|1dd70408bc735e97b8b71fb85d38f18b
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|b641cd19f0e52fdb1f90dc441339ddce31b448bc
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|393c5affc1e8e36470705ec44396d1ffa603a541
 system_ext/lib64/vendor.qti.ims.factory@1.0.so|fbebef1b0de8dbb2a2d059175bf53fa08ef20623
--system_ext/priv-app/ims/ims.apk|3bf7a4886917f317b5d352e0ca425d5dfdc55b96
 vendor/bin/ims_rtp_daemon|070bccd359e84a2edd42b0f19e2f366ba7a762dc
 vendor/bin/imsdatadaemon|641e98bf9a75a20a894665fcd7e5c1f03ea565eb
 vendor/bin/imsqmidaemon|c27008915bf75077c0ac62568ff7012b8ac3db5c
@@ -601,6 +600,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|d844356bf32944fdd0864b3fbc6d73f304f
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|8555e548d142fad0238e74e57383bb5a65e67bbc
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|25517caf74691b812320b46b477a3f4161cc1bcf
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|346a6f516637632cce8297f78227172d54d26040
+
+# Radio - IMS - from nubia NX659J 20201109.121337
+-system_ext/priv-app/ims/ims.apk|3dae438ef192086a8913c06d24c055802c25f2a6
 
 # Soter - from S62Pro RKQ1.210406.002
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|a6f1c35671a2f102ff95acecc70eefa3a7ebd432

@@ -219,8 +219,8 @@ PRODUCT_PACKAGES += \
 
 # fwk-detect
 PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect \
-    libqti_vndfwk_detect.vendor
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
 
 # GPS / Location
 PRODUCT_PACKAGES += \
@@ -310,6 +310,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml
 
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -361,10 +365,13 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0 \
+    android.hardware.radio.config@1.1 \
+    android.hardware.radio@1.5 \
+    android.hardware.secure_element@1.1 \
     rild \
     librmnetctl \
-    libprotobuf-cpp-full
+    libprotobuf-cpp-full \
+    libavservices_minijail.vendor
 
 PRODUCT_PACKAGES += \
     ims-ext-common \
@@ -392,7 +399,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
-# Tetheroffload
+# Telephony
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml

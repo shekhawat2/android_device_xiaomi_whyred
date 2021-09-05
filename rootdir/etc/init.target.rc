@@ -446,9 +446,8 @@ service seempd /system/bin/seempd
     group system sdcard_rw
     socket seempdw dgram 0666 system system
 
-service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
-     class main
-     user root
-     group system wakelock
-
-
+service vendor.hvdcp_opti /vendor/bin/hvdcp_opti
+    class main
+    user system
+    group system wakelock
+    capabilities BLOCK_SUSPEND WAKE_ALARM

@@ -717,5 +717,5 @@ vendor/lib64/libthermalioctl.so|fbbd487d7f5e72558607d371f6eb327a7687f644
 -vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
 -vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
 
-# Wifi - from jasmine V11.0.8.0.QDIMIXM
-vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
+# Wifi - from ginkgo V12.5.1.0.RCOCNXM
+vendor/bin/cnss-daemon|1b840d768c5d49a3a440fffcf526eefa45a7ad5b

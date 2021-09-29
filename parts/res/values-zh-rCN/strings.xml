@@ -17,8 +17,8 @@
 -->
 <resources>
     <!-- Dirac settings -->
-    <string name="dirac_title">使用米音提升音质</string>
-    <string name="dirac_summary">米音</string>
+    <string name="dirac_title">米音</string>
+    <string name="dirac_summary">使用米音提升音质</string>
     <string name="dirac_headset_title">耳机类型设置</string>
     <string name="dirac_preset_title">请选择预设效果</string>
     <!-- Dirac settings: Headset types -->
@@ -56,4 +56,6 @@
     <string name="dirac_preset_country">乡村</string>
     <string name="dirac_preset_dance">舞曲</string>
     <string name="dirac_preset_metal">金属</string>
+    <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">米音</string>
 </resources>

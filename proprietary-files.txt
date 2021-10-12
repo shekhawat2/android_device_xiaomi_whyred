@@ -59,15 +59,9 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|ea763a5951a646dc01848
 vendor/lib64/libbtnv.so|086a227f793822ef3eed15aea21a207c68feb7a9
 vendor/lib64/libbt-hidlclient.so|da867a59f05832dcd5c116fc69e692b6a4d8c77b
 
-# Bluetooth (A2DP) - from ginkgo V12.5.1.0.RCOCNXM
-vendor/lib/btaudio_offload_if.so|f191ea7ab220e9cca53e017aa99fb10a08c27582
-vendor/lib/hw/audio.bluetooth_qti.default.so|c4a39c069213853448ef9c8df917a74e70be2943
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|c8c79a54c30c525b7bcdce7642ee733d8b8b21af
-vendor/lib/libbluetooth_audio_session_qti.so|4c24625126384af08cd670858cdbebd0a780efe1
-
-# Bluetooth (aptX) - from ginkgo V12.5.1.0.RCOCNXM
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
+# Bluetooth (aptX) - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
+product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Bluetooth (Configstore) - from ginkgo V12.5.1.0.RCOCNXM
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|fc6265cb719afac0ff0bf6722d7f4cb4b408fd7b

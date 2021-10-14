@@ -20,6 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common aosp stuff
+TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/aosp/config/common.mk)
 
 # Enable updating of APEXes

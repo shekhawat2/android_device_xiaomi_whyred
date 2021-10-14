@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 TARGET_BOOT_ANIMATION_RES := 720
 $(call inherit-product, vendor/aosp/config/common.mk)
 
+# Include Gapps
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 

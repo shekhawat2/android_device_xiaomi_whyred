@@ -209,3 +209,6 @@ ro.soc.model=SDM660
 persist.vendor.delta_time.enable=true
 
 ro.build.shutdown_timeout=2
+
+# Disable binary xml
+persist.sys.binary_xml=false

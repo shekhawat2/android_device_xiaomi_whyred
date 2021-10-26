@@ -28,6 +28,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Include MemeCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Evolution stuff
 WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080

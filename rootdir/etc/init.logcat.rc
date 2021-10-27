@@ -7,6 +7,7 @@ on fs
 on property:sys.boot_completed=1
     stop boot_log
     stop boot_dmesg
+    write /sys/fs/selinux/enforce 1
 
 service boot_log /system/bin/logcat -f /cache/boot_log.txt
     class main

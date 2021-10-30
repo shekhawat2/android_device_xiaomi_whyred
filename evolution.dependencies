@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "ArrowOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github"
+  }
+]

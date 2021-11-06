@@ -1,0 +1,16 @@
+type xiaomiparts_app, domain;
+
+app_domain(xiaomiparts_app)
+
+# Access standard system services
+allow xiaomiparts_app {
+    app_api_service
+    audioserver_service
+    mediametrics_service
+    mediaserver_service
+    media_session_service
+}:service_manager find;
+
+# Allow reading and writing shared prefs
+allow xiaomiparts_app system_app_data_file:dir { search create_dir_perms };
+allow xiaomiparts_app system_app_data_file:{ file lnk_file } create_file_perms;

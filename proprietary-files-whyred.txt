@@ -706,16 +706,11 @@ vendor/lib64/libsensor_reg.so|c09110fd11f384040c31b7fd5c2b187aa901168c
 vendor/lib64/libsensor1.so|9438649176e37dfa406f4d4858ad31441ad4c3aa
 vendor/lib64/sensors.ssc.so|6934f0fd9e5e74356d9f18af0cbaa28164e697f6
 
-# Thermal - from whyred
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
-vendor/etc/thermal-engine-map.conf|19c9ec67a63568470061413e47d420321040ef2a
-vendor/etc/thermal-engine-normal.conf|e53ffed6a0b047f89e3b12559e4044a9c28f0dec
-vendor/bin/thermal-engine|e30b95b87cbd30b3e02bd857ae7b720ec4bbbe26
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-vendor/lib64/libthermalioctl.so|fbbd487d7f5e72558607d371f6eb327a7687f644
--vendor/lib/libthermalclient.so|4579096edb376b06827f8e90a49480cf121030f0
--vendor/lib64/libthermalclient.so|54121e31e4a5170f8c50e36ddb57685b6c538a21
+# Thermal - from S62Pro RKQ1.210406.002
+vendor/bin/thermal-engine|fe478f3ba50a819f58cc55dc1227bc0e37d30b14
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+-vendor/lib/libthermalclient.so|b2d69a3a3589eb0387c2f13cc10ff91072c27c9a
+-vendor/lib64/libthermalclient.so|26475ef0d6b80fcf40c9490f795d21e46d3d9054
 
 # Wifi - from ginkgo V12.5.1.0.RCOCNXM
 vendor/bin/cnss-daemon|1b840d768c5d49a3a440fffcf526eefa45a7ad5b

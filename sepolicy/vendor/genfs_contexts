@@ -40,3 +40,6 @@ genfscon sysfs /devices/platform/soc/soc:fpc1020/wakeup                         
 genfscon sysfs /devices/platform/soc/soc:goodix_fp/wakeup                                                                                        u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:hall_switch/wakeup                                                                                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/input/input1/wakeup                                                                                              u:object_r:sysfs_wakeup:s0
+
+#IIO device nodes
+genfscon sysfs /bus/iio/devices u:object_r:sysfs_battery_supply:s0

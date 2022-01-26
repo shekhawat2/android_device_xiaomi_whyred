@@ -511,6 +511,7 @@ function sdm660_sched_schedutil_dcvs() {
     fi
 
     echo 1 > /proc/sys/kernel/sched_walt_rotate_big_tasks
+    echo 0 > /proc/sys/kernel/sched_autogroup_enabled
 
     #if the kernel version >=4.19,set input_boost_freq accordingly
     if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then

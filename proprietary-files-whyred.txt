@@ -663,7 +663,7 @@ vendor/firmware/fpctzappfingerprint.mdt|f709249da0d08cdcf43f561782ac3d6695a154ec
 # Fingerprint sensor - from whyred
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|9aa63e30e79364e296061a69a77c8c6e00ea89d4
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
-vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
+-vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
 vendor/lib64/hw/fingerprint.fpc.default.so|987534d26e67c23f8d875e056386e91522b4d192
 vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
 vendor/lib64/com.fingerprints.extension@1.0.so|3071f86486e0de18f0b14cf4b9beb49978335e4b

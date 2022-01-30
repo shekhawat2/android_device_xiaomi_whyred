@@ -441,7 +441,6 @@ system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f00
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 -system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
 -system_ext/framework/qcrilhook.jar|ad688364314100318f305ed4ab5defec8766b20a
--system_ext/framework/qti-telephony-common.jar|25a8f6690b9069db4a616390b14cb6041c659b94
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|16cfcf7cd4076be0e0c97c8514305e03fbf5f571
 vendor/bin/hw/qcrild|b8c1fafadf119936fb07c628248fd5e477f73f13
 vendor/bin/adpl|ed11eae8da997c338cf7c003b5e2b489dd6af7e1

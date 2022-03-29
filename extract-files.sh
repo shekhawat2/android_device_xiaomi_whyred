@@ -70,13 +70,6 @@ function blob_fixup() {
                 "${PATCHELF}" --add-needed "libshim_dpmframework.so" "$LIBSHIM_DPMFRAMEWORK"
             done
             ;;
-        vendor/bin/mlipayd@1.1)
-           "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
-            ;;
-        vendor/lib64/libmlipay.so | vendor/lib64/libmlipay@1.1.so)
-            "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
-            sed -i "s|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g" "${2}"
-            ;;
         vendor/lib/hw/camera.sdm660.so)
             "${PATCHELF}" --add-needed "libcamera_sdm660_shim.so" "${2}"
             ;;

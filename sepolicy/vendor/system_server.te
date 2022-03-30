@@ -1,3 +1,5 @@
 allow system_server app_zygote:process getpgid;
+allow system_server proc:file getattr;
+allow system_server system_file:file ioctl;
 
 get_prop(system_server, vendor_persist_camera_prop)

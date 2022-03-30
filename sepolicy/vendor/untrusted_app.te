@@ -1,3 +1,4 @@
 allow untrusted_app self:fifo_file ioctl;
 
+get_prop(untrusted_app, camera_prop)
 get_prop(untrusted_app, vendor_persist_camera_prop)

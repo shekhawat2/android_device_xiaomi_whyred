@@ -1,0 +1,2 @@
+diag_use(netmgrd)
+diag_use(netutils_wrapper)

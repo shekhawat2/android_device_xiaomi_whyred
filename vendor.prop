@@ -112,7 +112,9 @@ persist.vendor.ov13855_sunny.low.lux=385
 persist.vendor.s5k3l8_ofilm.light.lux=367
 persist.vendor.s5k3l8_ofilm.low.lux=379
 
-# Display
+# Graphics
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.early_app_phase_offset_ns=1500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
 debug.sf.early_gl_phase_offset_ns=3000000
@@ -120,7 +122,8 @@ debug.sf.early_phase_offset_ns=1500000
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
-debug.sf.latch_unsignaled=1
+debug.sf.latch_unsignaled=0
+renderthread.skia.reduceopstasksplitting=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610

@@ -380,10 +380,6 @@ vendor/lib64/vendor.display.color@1.0.so|c7eb0d87e45934ad7ff34d0c977116ed4609186
 vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e535010
 vendor/lib64/vendor.display.postproc@1.0.so|c9c96ff50b6ff8989fac9fdf35d282a996ea477a
 
-# libtinyxml.so - from Prebuilt
-vendor/lib/libtinyxml.so|6d25006817df068adc3fba66b644b340107fb045
-vendor/lib64/libtinyxml.so|15b791b2c8b7da031de8db2f9d0721b9084f27a8
-
 # QMI - from ginkgo V12.5.1.0.RCOCNXM
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0

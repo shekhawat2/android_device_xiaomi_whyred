@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
 
 # Shim
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
+    libcamera_sdm660_shim \
+    libmiwatermark_shim
 
 # Component overrides
 PRODUCT_COPY_FILES += \

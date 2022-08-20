@@ -73,6 +73,9 @@ function blob_fixup() {
         vendor/lib/hw/camera.sdm660.so)
             "${PATCHELF}" --add-needed "libcamera_sdm660_shim.so" "${2}"
             ;;
+        vendor/lib/libMiWatermark.so)
+            "${PATCHELF}" --add-needed "libmiwatermark_shim.so" "${2}"
+            ;;
         vendor/lib64/libgf_ca.so)
             sed -i 's|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g' "${2}"
             ;;

@@ -77,8 +77,8 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|624ac893ea428a29df
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|64de735684377aba4a33a3bb0bee25f7999bafcd
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|32c763b353882c9a711a641ff9eb99fe1b0e164d
 
-# Charger - from S62Pro RKQ1.210406.002
-vendor/bin/hvdcp_opti|0af1d3a59fd10acd7a614662c341421d9267014c
+# Charger - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/bin/hvdcp_opti|45f500aa4816c87de222ee7eb33655f0e83e392c
 
 # CNE - from ginkgo V12.5.1.0.RCOCNXM
 -system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|e71f1a060bc65eb373beb6d33158c0e2b37e2a70

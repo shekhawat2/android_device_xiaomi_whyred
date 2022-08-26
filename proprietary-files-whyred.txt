@@ -666,12 +666,12 @@ vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75
 -vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
 vendor/lib64/hw/fingerprint.fpc.default.so|987534d26e67c23f8d875e056386e91522b4d192
 vendor/lib64/hw/fingerprint.goodix.default.so|30a459e4ff9c047d1cc6a130885460cc07426826
-vendor/lib64/com.fingerprints.extension@1.0.so|4b6adc0e9deb2dbdd70ac3558a28c9ffc5b0da2f
+vendor/lib64/com.fingerprints.extension@1.0.so|3071f86486e0de18f0b14cf4b9beb49978335e4b
 vendor/lib64/libgf_ca.so|b7635dcbea9a7e7252e746914f995a5ffb92b5d0
 vendor/lib64/libgf_hal.so|d601b957f58e840d2ff5a69f7fda74aca93805b2
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|ac7f5d1a9cfc04926cde4fb475d074331ba8dbf5
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|665d7c8b3997acf7b965bd40a5188e35f8264cdd
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|1cf42abed46ea863d5d844e3a2f945bd6a9fff39
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|b47f3d59c111a97a47ed38d4cb05ddf59a47ebac
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|69ae7b2e6ce22e23f70caa20c340e99510409b57
 
 # Gatekeeper - from whyred
 vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae

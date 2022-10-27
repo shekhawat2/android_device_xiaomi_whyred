@@ -17,6 +17,7 @@ product                                                  /product             ex
 vendor                                                   /vendor              ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
 odm                                                      /odm                 ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
 /dev/block/bootdevice/by-name/boot                       /boot                emmc    defaults                                                                                        defaults
+/dev/block/bootdevice/by-name/recovery                   /recovery            emmc    defaults                                                                                        defaults
 /dev/block/bootdevice/by-name/userdata                   /data                ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard,noatime,lazytime                                 wait,check,formattable,quota,reservedsize=128M
 /dev/block/bootdevice/by-name/userdata                   /data                f2fs    nosuid,nodev,fsync_mode=nobarrier,discard,noatime,lazytime                                      wait,check,formattable,quota,reservedsize=128M
 /dev/block/bootdevice/by-name/misc                       /misc                emmc    defaults                                                                                        defaults

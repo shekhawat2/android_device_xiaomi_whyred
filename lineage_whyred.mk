@@ -25,6 +25,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Rice Stuff
+WITH_GMS := true
+RICE_CHIPSET := "SDM636"
+RICE_MAINTAINER := "Shekhawat2"
+SUSHI_BOOTANIMATION := 1080
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi

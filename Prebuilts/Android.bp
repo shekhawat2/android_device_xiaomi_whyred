@@ -1,0 +1,8 @@
+android_app_import {
+    apk: "GoogleCameraGo.apk",
+    name: "GoogleCameraGo",
+    overrides: ["Aperture", "Camera2", "GrapheneCamera"],
+    presigned: true,
+    product_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"]
+}

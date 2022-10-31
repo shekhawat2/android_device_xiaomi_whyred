@@ -7,3 +7,6 @@ ro.incremental.enable=1
 
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
+# Radio
+ro.telephony.block_binder_thread_on_incoming_calls=false

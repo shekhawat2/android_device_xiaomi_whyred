@@ -80,6 +80,9 @@ on boot
     # Enable camera read sensors data
     setprop persist.camera.gyro.disable 0
 
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 on post-fs-data
     mkdir /persist/qti_fp 0700 system system
     mkdir /mnt/vendor/persist/fpc 0770 system system	

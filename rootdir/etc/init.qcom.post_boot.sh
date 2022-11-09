@@ -481,20 +481,20 @@ function sdm660_sched_schedutil_dcvs() {
     if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then
         # configure governor settings for little cluster
         echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
-        echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us
-        echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us
-        echo 1401600 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq
+        echo 20000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/up_rate_limit_us
+        echo 20000 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/down_rate_limit_us
+        echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq
         echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/pl
         echo 633600 > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
-        echo 902400 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/rtg_boost_freq
+        echo 0 > /sys/devices/system/cpu/cpufreq/policy0/schedutil/rtg_boost_freq
 
         # configure governor settings for big cluster
         echo "schedutil" > /sys/devices/system/cpu/cpufreq/policy4/scaling_governor
-        echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/up_rate_limit_us
-        echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/down_rate_limit_us
-        echo 1401600 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/hispeed_freq
+        echo 20000 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/up_rate_limit_us
+        echo 20000 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/down_rate_limit_us
+        echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/hispeed_freq
         echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/pl
-        echo 1113600 > /sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq
+        echo 0 > /sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq
         echo 0 > /sys/devices/system/cpu/cpufreq/policy4/schedutil/rtg_boost_freq
     else
         # configure governor settings for little cluster
@@ -515,8 +515,8 @@ function sdm660_sched_schedutil_dcvs() {
 
     #if the kernel version >=4.19,set input_boost_freq accordingly
     if [ $KernelVersionA -ge 4 ] && [ $KernelVersionB -ge 19 ]; then
-        echo "0:1401600" > /sys/devices/system/cpu/cpu_boost/input_boost_freq
-        echo 40 > /sys/devices/system/cpu/cpu_boost/input_boost_ms
+        echo "0:0" > /sys/devices/system/cpu/cpu_boost/input_boost_freq
+        echo 0 > /sys/devices/system/cpu/cpu_boost/input_boost_ms
     else
         echo "0:1401600" > /sys/module/cpu_boost/parameters/input_boost_freq
         echo 40 > /sys/module/cpu_boost/parameters/input_boost_ms

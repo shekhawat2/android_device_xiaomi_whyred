@@ -29,7 +29,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 WITH_GMS := true
 RICE_CHIPSET := "SDM636"
 RICE_MAINTAINER := "Shekhawat2"
-SUSHI_BOOTANIMATION := 720
+SUSHI_BOOTANIMATION := 1080
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred

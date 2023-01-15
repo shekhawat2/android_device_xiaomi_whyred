@@ -25,6 +25,9 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Use Mini Gapps
+TARGET_USES_MINI_GAPPS := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi

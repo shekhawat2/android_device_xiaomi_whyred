@@ -27,6 +27,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Rice Stuff
 WITH_GMS := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_USE_GOOGLE_TELEPHONY := true
 RICE_CHIPSET := "SDM636"
 RICE_MAINTAINER := "Shekhawat2"
 SUSHI_BOOTANIMATION := 720

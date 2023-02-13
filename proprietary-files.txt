@@ -315,9 +315,9 @@ vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 # IRQ balance - from jasmine
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 
-# Graphics (Vulkan) - from S62Pro RKQ1.210406.002
-vendor/lib/hw/vulkan.adreno.so|139868cf11006199fffc109b7a207e4e7f4cbd18
-vendor/lib64/hw/vulkan.adreno.so|9215100009b574f71dc75272f22a499302ea121d
+# Graphics (Vulkan) - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/lib/hw/vulkan.sdm660.so|404862c00279f222b1a9277bf773a96a605ba99b
+vendor/lib64/hw/vulkan.sdm660.so|785505bf473e486cd7ce1a034ccba46381830a6e
 
 # Keymaster - from S62Pro RKQ1.210406.002
 vendor/lib/libkeymasterdeviceutils.so|a0de8c0055d2cfac9202d8eef88854c1e9795ff4
